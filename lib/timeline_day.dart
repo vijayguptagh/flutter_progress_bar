@@ -1,14 +1,3 @@
-class TimelineDay {
-  final String dayNumber;
-  final bool completed;
-  final String changes;
-
-  TimelineDay({
-    required this.dayNumber,
-    required this.completed,
-    required this.changes,
-  });
-}
 
 
 List<TimelineDay> getDummyTimelineDays() {
